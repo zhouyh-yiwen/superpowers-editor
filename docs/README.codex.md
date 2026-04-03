@@ -1,126 +1,52 @@
-# Superpowers for Codex
+# superpowers-editor for Codex
 
-Guide for using Superpowers with OpenAI Codex via native skill discovery.
+This project is a local Codex plugin for publishing and editorial work.
 
-## Quick Install
+## What It Includes
 
-Tell Codex:
+- `brainstorming`
+  For editorial ideation, reader/audience exploration, and angle selection.
+- `proposal-planning`
+  For internal proposal-report structure, writing order, and missing-evidence planning.
+- `copywriting-brief`
+  For turning a chosen editorial angle into a reader-facing writing brief.
+- `using-superpowers`
+  For lightweight routing between the skills above.
 
-```
-Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.codex/INSTALL.md
-```
+## Current Local Setup
 
-## Manual Installation
-
-### Prerequisites
-
-- OpenAI Codex CLI
-- Git
-
-### Steps
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/obra/superpowers.git ~/.codex/superpowers
-   ```
-
-2. Create the skills symlink:
-   ```bash
-   mkdir -p ~/.agents/skills
-   ln -s ~/.codex/superpowers/skills ~/.agents/skills/superpowers
-   ```
-
-3. Restart Codex.
-
-4. **For subagent skills** (optional): Skills like `dispatching-parallel-agents` and `subagent-driven-development` require Codex's multi-agent feature. Add to your Codex config:
-   ```toml
-   [features]
-   multi_agent = true
-   ```
-
-### Windows
-
-Use a junction instead of a symlink (works without Developer Mode):
-
-```powershell
-New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.agents\skills"
-cmd /c mklink /J "$env:USERPROFILE\.agents\skills\superpowers" "$env:USERPROFILE\.codex\superpowers\skills"
-```
-
-## How It Works
-
-Codex has native skill discovery — it scans `~/.agents/skills/` at startup, parses SKILL.md frontmatter, and loads skills on demand. Superpowers skills are made visible through a single symlink:
-
-```
-~/.agents/skills/superpowers/ → ~/.codex/superpowers/skills/
-```
-
-The `using-superpowers` skill is discovered automatically and enforces skill usage discipline — no additional configuration needed.
-
-## Usage
-
-Skills are discovered automatically. Codex activates them when:
-- You mention a skill by name (e.g., "use brainstorming")
-- The task matches a skill's description
-- The `using-superpowers` skill directs Codex to use one
-
-### Personal Skills
-
-Create your own skills in `~/.agents/skills/`:
+The repository currently lives at:
 
 ```bash
-mkdir -p ~/.agents/skills/my-skill
+/Users/zhouyh/SynologyDrive/2025工作/Lab/superpowers-editor
 ```
 
-Create `~/.agents/skills/my-skill/SKILL.md`:
+The local plugin link currently points to:
 
-```markdown
----
-name: my-skill
-description: Use when [condition] - [what it does]
----
-
-# My Skill
-
-[Your skill content here]
+```bash
+/Users/zhouyh/plugins/superpowers-editor
 ```
 
-The `description` field is how Codex decides when to activate a skill automatically — write it as a clear trigger condition.
+## Recommended Usage
+
+Open Codex in the repository root:
+
+```bash
+/Users/zhouyh/SynologyDrive/2025工作/Lab/superpowers-editor
+```
+
+Then use direct requests such as:
+
+- `请用 brainstorming 帮我找这本书的几个推文切口`
+- `请用 proposal-planning 帮我整理这个选题报告`
+- `请用 copywriting-brief 帮我把这个角度整理成一份文章 brief`
+
+## Notes
+
+- `brainstorming` can work from a full manuscript, EPUB, sample chapters, a table of contents, or a summary.
+- `proposal-planning` is for internal report planning, not article drafting.
+- `copywriting-brief` prepares a writing route; it does not have to produce the final article itself.
 
 ## Updating
 
-```bash
-cd ~/.codex/superpowers && git pull
-```
-
-Skills update instantly through the symlink.
-
-## Uninstalling
-
-```bash
-rm ~/.agents/skills/superpowers
-```
-
-**Windows (PowerShell):**
-```powershell
-Remove-Item "$env:USERPROFILE\.agents\skills\superpowers"
-```
-
-Optionally delete the clone: `rm -rf ~/.codex/superpowers` (Windows: `Remove-Item -Recurse -Force "$env:USERPROFILE\.codex\superpowers"`).
-
-## Troubleshooting
-
-### Skills not showing up
-
-1. Verify the symlink: `ls -la ~/.agents/skills/superpowers`
-2. Check skills exist: `ls ~/.codex/superpowers/skills`
-3. Restart Codex — skills are discovered at startup
-
-### Windows junction issues
-
-Junctions normally work without special permissions. If creation fails, try running PowerShell as administrator.
-
-## Getting Help
-
-- Report issues: https://github.com/obra/superpowers/issues
-- Main documentation: https://github.com/obra/superpowers
+Edit files directly inside this repository. The local plugin reads from the repo path, so you do not need to reinstall after ordinary skill edits.

@@ -1,0 +1,43 @@
+{
+  "name": "superpowers-editor",
+  "version": "0.1.0",
+  "description": "Publishing editor skills for brainstorming angles, planning proposal reports, and preparing reader-facing writing briefs.",
+  "author": {
+    "name": "zhouyh",
+    "url": "https://github.com/zhouyh-yiwen"
+  },
+  "homepage": "https://github.com/zhouyh-yiwen/superpowers-editor",
+  "repository": "https://github.com/zhouyh-yiwen/superpowers-editor",
+  "license": "MIT",
+  "keywords": [
+    "publishing",
+    "editorial",
+    "brainstorming",
+    "proposal",
+    "copywriting"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "superpowers-editor",
+    "shortDescription": "Editorial thinking, planning, and writing-brief skills",
+    "longDescription": "A local plugin for publishing editors that supports angle exploration, proposal-report planning, and reader-facing writing briefs built from real book materials.",
+    "developerName": "zhouyh",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/zhouyh-yiwen/superpowers-editor",
+    "privacyPolicyURL": "https://github.com/zhouyh-yiwen/superpowers-editor",
+    "termsOfServiceURL": "https://github.com/zhouyh-yiwen/superpowers-editor",
+    "defaultPrompt": [
+      "Brainstorm 3-5 angles for recommending this book.",
+      "Create a proposal plan for this internal proposal report.",
+      "Turn this chosen angle into a reader-facing writing brief."
+    ],
+    "brandColor": "#F59E0B",
+    "composerIcon": "./assets/superpowers-editor-small.svg",
+    "logo": "./assets/superpowers-editor.png",
+    "screenshots": []
+  }
+}
