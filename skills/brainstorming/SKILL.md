@@ -29,6 +29,8 @@ If the angle is chosen and the next step is to prepare a reader-facing writing r
 
 ## Core Rules
 
+- Scope first. If the request bundles several independent editorial decisions, separate them before going deeper.
+- One key decision at a time.
 - Audience first. Identify who should care before shaping the message.
 - Purpose first. Be clear whether the output is for internal judgment, reader interest, recommendation, or launch conversation.
 - Angle first. Generate multiple candidate angles before choosing one.
@@ -54,7 +56,18 @@ Use `angle-reviewer.md` as a self-review checklist before recommending a directi
    - collect concrete materials that could support different editorial angles
    - do not summarize the whole book unless that is the task
 
-2. **Define the decision**
+2. **Check scope before refining**
+   If the request really contains several different jobs, stop and separate them first.
+
+   Examples:
+   - proposal logic
+   - title direction
+   - reader-facing angle
+   - launch messaging
+
+   If needed, state which decision should be solved first and leave the others for later.
+
+3. **Define the decision**
    Clarify what needs to be decided now:
    - book positioning
    - target reader
@@ -62,13 +75,15 @@ Use `angle-reviewer.md` as a self-review checklist before recommending a directi
    - recommendation angle
    - post angle
 
-3. **Find the audience tension**
+   Do not try to settle several of these at once. Pick the most immediate one and work on that first.
+
+4. **Find the audience tension**
    Ask focused questions or infer from the material:
    - Who is most likely to care?
    - What problem, curiosity, fear, aspiration, or identity does this connect to?
    - Why would that person pay attention now?
 
-4. **Generate candidate angles**
+5. **Generate candidate angles**
    Produce 3-5 distinct angles. Each one must include:
    - one-sentence angle
    - target reader
@@ -77,10 +92,10 @@ Use `angle-reviewer.md` as a self-review checklist before recommending a directi
    - what risk or weakness it has
    - which book materials could support it
 
-5. **Compare and recommend**
+6. **Compare and recommend**
    Compare the candidate angles, then recommend one primary angle and one backup angle.
 
-6. **Hand off cleanly**
+7. **Hand off cleanly**
    End with a concise package the next step can use:
    - recommended primary angle
    - backup angle
@@ -89,8 +104,11 @@ Use `angle-reviewer.md` as a self-review checklist before recommending a directi
    - evidence or book material to lean on
    - open questions if any
 
-7. **Let the user choose when useful**
-   If the user is clearly choosing between routes, present the candidate angles and supporting materials in a way that lets them pick one. Do not force a recommendation-only answer when comparison is the real need.
+8. **Let the user choose when useful**
+   If 2-3 routes are genuinely viable, present the candidate angles and supporting materials in a way that lets the user choose.
+
+   Do not force a recommendation-only answer when comparison is the real need.
+   Do not silently lock a route if the real decision is still open.
 
 ## Control Flow
 
@@ -129,6 +147,7 @@ Use this structure unless the user asks for something else:
 ## Quality Bar
 
 Good outputs:
+- identify the real decision being made
 - make the audience visible
 - connect the book to a real reader need or curiosity
 - sound like an editor making a judgment
@@ -137,6 +156,7 @@ Good outputs:
 - identify which concrete materials support which route
 
 Bad outputs:
+- try to solve positioning, title, audience, and campaign all at once
 - repeat the content summary in prettier words
 - produce interchangeable slogans
 - confuse "interesting topic" with "effective angle"

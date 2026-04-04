@@ -1,6 +1,6 @@
 ---
 name: proposal-planning
-description: Use when an editorial direction is already mostly clear and you need to organize a proposal report, section order, writing sequence, or evidence-gathering plan.
+description: Use when an editorial direction is already mostly clear and an internal proposal, section order, writing sequence, or evidence-gathering plan needs to be organized.
 ---
 
 # Proposal Planning
@@ -32,7 +32,12 @@ If the core direction is still unclear, use `brainstorming` first.
 - Lead with judgment, then support it.
 - Do not confuse summary with argument.
 - Surface missing evidence early.
+- Make title, target reader, selling point, and focus visible early rather than burying them in later sections.
+- Treat reader definition as a real buying or reading scenario, not a demographic label.
+- Make the proposal answer why this book is distinct, why it is not too broad, and what its clearest value point is.
 - Keep the plan practical enough that the editor can start writing immediately.
+- Use the smallest report structure that can win the decision; do not overbuild sections just because they exist in other templates.
+- If two report framings are both plausible, surface the tradeoff and recommend one instead of blending them into a vague compromise.
 
 Read `editorial-report-style.md` before finalizing the plan.  
 Use `report-outline-reviewer.md` as a self-review checklist.
@@ -55,7 +60,6 @@ Use `report-outline-reviewer.md` as a self-review checklist.
    - internal approval
    - line justification
    - timing justification
-   - budget / print run support
    - positioning clarity
 
 2. **List the core judgments already made**
@@ -65,11 +69,16 @@ Use `report-outline-reviewer.md` as a self-review checklist.
    - why it is worth publishing
    - why now
    - what makes it distinct
+   - whether the title is working
+   - what the strongest selling point is
+   - what the proposal should not try to cover
 
 3. **Group the report into modules**
    Use only the modules needed for this proposal. Common modules:
    - proposal summary
+   - title / framing check
    - reader and scenario
+   - selling point / distinct value
    - publication value
    - publication necessity
    - comparable titles / market situation
@@ -88,6 +97,15 @@ Use `report-outline-reviewer.md` as a self-review checklist.
 6. **Produce the writing plan**
    End with a concrete plan the editor can use immediately.
 
+## Control Flow
+
+After the plan is built, choose the next step based on what the user needs:
+
+- if the core angle or reader logic still feels unstable → return to `brainstorming`
+- if the plan should be challenged before a topic meeting or circulation → use `requesting-review`
+- if review feedback already exists and the plan now needs revision handling → use `receiving-review`
+- if the user only needed the plan, stop here
+
 ## Output Format
 
 ### Goal
@@ -95,6 +113,12 @@ Use `report-outline-reviewer.md` as a self-review checklist.
 
 ### Core Judgment
 - the current recommendation in 3-6 bullets
+
+### Key Framing Questions
+- title / framing issue if any
+- core reader
+- core selling point
+- focus risk if any
 
 ### Report Modules
 - Module name
@@ -121,9 +145,14 @@ Good plans:
 - prevent repetition between sections
 - separate argument from summary
 - expose missing proof before drafting
+- make title, reader, selling point, and focus explicit
+- use only the modules that help this approval decision
+- reveal whether the proposal is too broad, too generic, or too close to comparables
 
 Bad plans:
 - read like vague meeting notes
 - just mirror a template without strategic order
+- include sections only because "proposal reports usually have them"
 - hide evidence gaps
 - confuse internal persuasion with external marketing copy
+- leave title, reader, and value point vague until too late

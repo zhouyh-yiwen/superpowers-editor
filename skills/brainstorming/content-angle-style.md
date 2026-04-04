@@ -59,3 +59,7 @@ From humanize:
 - angles that offer a concrete promise
 - angles that can be defended with material already in hand
 - angles that can point to reusable scenes, arguments, or details from the text
+- angles that reveal what the real selling point is
+- angles that help distinguish the book from nearby titles
+- angles that reduce breadth and make the theme feel focused
+- angles that suggest what kind of title or framing might actually attract attention

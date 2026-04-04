@@ -1,6 +1,6 @@
 ---
 name: copywriting-brief
-description: Use when an editorial angle is already chosen and you need a clean reader-facing writing brief, editorial guidance, article route, or post structure for a recommendation article, launch note, or similar piece.
+description: Use when a reader-facing piece already has a likely angle and the next step is to prepare a writing brief, article route, post structure, or similar drafting guide.
 ---
 
 # Copywriting Brief
@@ -34,6 +34,7 @@ If the task is an internal report or proposal plan, use `proposal-planning`.
 - Use book material as support, not as a dump of facts.
 - Keep the route specific, natural, and human.
 - Do not invent proof, reader response, endorsements, or scenes not grounded in the material.
+- If the desired reader takeaway is still unclear, stop and return to `brainstorming` rather than faking confidence.
 
 Read `reader-copy-style.md` before finalizing the brief.  
 Use `brief-reviewer.md` as a self-review checklist.
@@ -44,7 +45,7 @@ Use `brief-reviewer.md` as a self-review checklist.
    Identify:
    - what kind of piece this is
    - who it is for
-   - what the reader should feel, understand, or want by the end
+   - what the piece should help the reader understand, question, feel, or want by the end
 
 2. **Lock the angle**
    State the chosen main angle in one sentence.
@@ -70,6 +71,14 @@ Use `brief-reviewer.md` as a self-review checklist.
 
 7. **Hand off cleanly**
    End with a brief another writing step can use immediately. The brief should be complete enough that the next writer does not need to rediscover the angle.
+
+## Control Flow
+
+After producing the brief, choose the next step based on what the user needs:
+
+- if the angle still feels shaky or overloaded → return to `brainstorming`
+- if the brief should be stress-tested before drafting → use `requesting-review`
+- if the brief is ready and no review is needed → stop here
 
 ## Output Format
 
@@ -109,6 +118,7 @@ Good briefs:
 - make the reader problem visible
 - keep one main promise instead of several competing ones
 - use the book as support for the route
+- make the intended reader takeaway legible through the route even when it is not named as a separate field
 
 Bad briefs:
 - just summarize the book

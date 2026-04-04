@@ -14,13 +14,17 @@ Use this file when organizing an internal book proposal or approval report.
 ### Proposal Summary
 - State what the book is, who it is for, and why it matters now.
 - Short and high-signal.
+- If the title or framing is weak, surface that early instead of hiding it.
 
 ### Reader And Scenario
 - Name the readers in terms of needs, tensions, or situations.
 - Avoid labels with no scenario attached.
+- Be specific enough that someone can picture why this person would buy, read, or care.
 
 ### Publication Value
 - Explain what the book offers: author credibility, quality of treatment, readability, theme strength, line fit.
+- Make the strongest selling point legible.
+- Clarify what is different from nearby or competing books.
 
 ### Publication Necessity
 - Explain why this book deserves resources now.
@@ -37,6 +41,11 @@ Use this file when organizing an internal book proposal or approval report.
 ### Marketing Possibility
 - Mention likely handles, channels, or talking points.
 - Do not drift into full campaign copy.
+- Prefer a few concrete handles over broad optimism.
+
+### Title / Framing Check
+- Ask whether the current title is clear, attractive, and aligned with the real reader entry point.
+- Flag titles that are too academic, too generic, too hidden, or too weakly connected to the core value.
 
 ## Avoid
 
@@ -44,6 +53,7 @@ Use this file when organizing an internal book proposal or approval report.
 - empty praise like "highly valuable" with no support
 - vague reader labels with no reading scenario
 - treating marketing possibility as pure optimism
+- proposals that feel too broad, too scattered, or unsure of the main theme
 
 ## Prefer
 
@@ -51,3 +61,6 @@ Use this file when organizing an internal book proposal or approval report.
 - "The strongest reason to publish now is..."
 - "The most natural reader entry point is..."
 - "Compared with existing titles, this book..."
+- "The title currently helps / hurts because..."
+- "The proposal's clearest selling point is..."
+- "The current risk is that the book feels too broad / too niche / too similar unless..."
